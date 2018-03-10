@@ -1,0 +1,46 @@
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(338, 100%, 65%);
+}
+
+html, body {
+  box-sizing: border-box;
+  background-color: #ffeead;
+  height: 100%;
+  padding: 10px;
+  margin: 0px;
+}
+
+.container > div:nth-child(1n) {
+  background-color: #96ceb4;	
+}
+
+.container > div:nth-child(3n) {
+  background-color: #88d8b0;
+}
+
+.container > div:nth-child(2n) {
+  background-color: #ff6f69;
+}
+
+.container > div:nth-child(4n) {
+  background-color: #ffcc5c;
+}
+
+.container > div:nth-child(5n) {
+  background-color: #f78e06;	
+}
+
+.container > div:nth-child(6n) {
+  background-color: #888896;
+}
+
+.container > div:nth-child(7n) {
+  background-color: #f0adf7;
+}
+
+.container > div:nth-child(8n) {
+  background-color: #c5ffc3;
+}

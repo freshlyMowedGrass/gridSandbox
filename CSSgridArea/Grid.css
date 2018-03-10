@@ -1,0 +1,56 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: auto-fit;
+    grid-template-rows: minmax(2fr, 3fr) auto auto;
+}
+
+.header {
+    font-family: 'Monofett', cursive;
+    font-size: 60px;
+}
+
+.menu {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 60px;
+}
+
+.content {
+    font-family: 'Libre Barcode 128 Text';
+    font-size: 60px;
+    grid-row: span 3;
+}
+
+.alba {
+    font-family: 'Nosifer', cursive;
+    font-size: 60px;
+}
+
+.container .container {
+    background-color: aliceblue
+}
+
+.b {
+    grid-column: auto auto auto;
+}
+
+.ball {
+    font-family: 'Trade Winds', cursive;
+    font-size: 60px;
+}
+
+.xavier {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 60px;
+}
+
+.donkey {
+    font-family: 'Akronim', cursive;
+    font-size: 60px;
+}
+
+.footer {
+    font-family: 'Codystar', cursive;
+    font-size: 60px;
+}
